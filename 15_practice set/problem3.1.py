@@ -1,0 +1,11 @@
+coordinates = (10, 20)
+
+print(coordinates[0])
+print(coordinates[1])
+
+#coordinates[0] = 20 not changable for tuples
+
+corlist =  list(coordinates)
+corlist[0] = 50
+coordinates = tuple(corlist)
+print (coordinates)
