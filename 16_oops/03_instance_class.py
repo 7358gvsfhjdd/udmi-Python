@@ -20,3 +20,4 @@ print(Employee.company) # This will always print the class attribute
 
 # Object introspection 
 print(dir(e1))
+print (Employee.company)
