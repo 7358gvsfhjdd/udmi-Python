@@ -8,5 +8,7 @@ class Dog(Animal):
     def speak(self):
         print("Woof!")    
         
-a = Animal("Dog")
-a.speak()
+#a = Animal("Dog")
+#a.speak()
+d = Dog("Bruno")
+d.speak()
