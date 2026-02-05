@@ -3,9 +3,10 @@ from time import time
 def timer(func):
     def wrapper(n):
         t1 = time()
-        func(n)
+        result =func(n)
         t2 = time()
         print(t2 - t1)
+        return result 
     return wrapper
 
 @timer
@@ -16,3 +17,4 @@ def sum_1m(n):
     return sum
 
 a = sum_1m(1000000)
+print(a)
