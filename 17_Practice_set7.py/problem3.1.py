@@ -12,3 +12,6 @@ class Mathutils:
 a = Mathutils
 print(a.add(5,34))
 a.description()
+
+#MathUtils.description(
+#print(MathUtils.add(5, 34))
