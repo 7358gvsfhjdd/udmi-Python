@@ -17,4 +17,4 @@ except ZeroDivisionError:
     print("Error: Cannot divide by zero")
     
 except NegativeNumberError as e:
-    print(f"Error: The number cannot be negative", e)
+    print(f"Error: {e}", e)
