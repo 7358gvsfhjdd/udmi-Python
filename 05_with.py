@@ -1,4 +1,4 @@
-f = open("sam.text", "r")
+f = open("18_file/sam.txt", "r")
 
 content = f.read()
 
