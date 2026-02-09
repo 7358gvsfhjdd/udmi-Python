@@ -1,4 +1,4 @@
-f = open("sam.txt", "r")
+f = open("harry.txt", "r")
 
 for line in f:
     print(line)
