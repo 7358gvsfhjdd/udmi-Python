@@ -1,4 +1,4 @@
-f = open("John Doe.txt", "a")
+f = open("Sample.txt", "a")
 
 string = '''
 John Doe is a software engineer with 5 years of experience in Python programming.
