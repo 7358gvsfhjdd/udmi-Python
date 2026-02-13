@@ -1,4 +1,4 @@
 import shutil
 import os
 
-os.remove("this.txt")
+os.remove("notes1.txt")
