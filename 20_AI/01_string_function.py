@@ -1,4 +1,4 @@
- def convert_to_dashed_string(text: str) -> str:
+def convert_to_dashed_string(text: str) -> str:
     """
     Converts a given string to a dashed format by:
     - Removing special characters
